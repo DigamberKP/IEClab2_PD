@@ -1,0 +1,7 @@
+# Format: clock  timeReq  slackR/slackF  setupR/setupF  instName/pinName   # cycle(s)
+clk(R)->clk(R)	9.809    9.132/*         0.191/*         out_reg[2]/RB    1
+clk(R)->clk(R)	9.765    9.285/*         0.235/*         out_reg[1]/RB    1
+clk(R)->clk(R)	9.792    9.304/*         0.208/*         out_reg[1]/D    1
+clk(R)->clk(R)	9.825    9.346/*         0.175/*         out_reg[0]/RB    1
+clk(R)->clk(R)	9.874    9.446/*         0.126/*         out_reg[0]/D    1
+clk(R)->clk(R)	9.811    9.512/*         0.189/*         out_reg[2]/D    1
