@@ -1,0 +1,57 @@
+*----------------------------------------------------------------------------------------
+*	Innovus 16.26-s040_1 (64bit) 03/14/2018 00:26 (Linux 2.6.18-194.el5)
+*	
+*
+* 	Date & Time:	2021-Oct-17 16:21:09 (2021-Oct-17 10:51:09 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: mod5_count
+*
+*	Liberty Libraries used: 
+*	        worst_case: ../../../../../../service/tools/public/asiclib/umcoa/L65/libraries/UMC65LLSC/synopsys/ccs/uk65lscllmvbbr_090c125_wc_ccs.lib
+*
+*	Power Domain used: 
+*
+*       Power View : worst_case
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: N.A.
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs 
+*
+*       Temperature = 125 
+*
+*       report_power -outfile .//mod5_count.rpt -rail_analysis_format VS
+*
+-----------------------------------------------------------------------------------------
+Cell                            Internal   Switching       Total     Leakage   Cell
+                                   Power       Power       Power       Power   Name
+--------------------------------------------------------------------------------------
+out_reg[0]                     0.0005517   4.737e-05   0.0006008   1.725e-06  DFZRM2RA
+out_reg[1]                     0.0005127   2.481e-05   0.0005388   1.319e-06  DFQZRM2RA
+out_reg[2]                     0.0004582   3.655e-06   0.0004632   1.283e-06  DFQZRM2RA
+g153                           3.929e-05   1.489e-05   5.464e-05   4.633e-07  MXB2M1RA
+g154                           1.834e-05   2.739e-05   4.608e-05   3.438e-07  NR2M2R
+g152                           1.795e-05   6.837e-06   2.524e-05   4.565e-07  AN2M2R
+
+---------------------------------------------------------------------------------------
+
+Total (      6 of      6  )     0.001598    0.000125   0.001729   5.591e-06
+Total Capacitance                1.517e-14 F
+Power Density                   *** No Die Area ***
