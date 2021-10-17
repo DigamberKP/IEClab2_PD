@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/afs/iitd.ac.in/user/j/jv/jvl212383/ieclab21/Design/pr1_mod5_count/tb_mod5_isim_beh.exe" -prj "/afs/iitd.ac.in/user/j/jv/jvl212383/ieclab21/Design/pr1_mod5_count/tb_mod5_beh.prj" "work.tb_mod5" "work.glbl" 
